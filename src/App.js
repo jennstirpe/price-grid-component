@@ -1,24 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import { GlobalStyles } from "./components/styled/Global";
+import { ThemeProvider } from "styled-components";
+
+import { StyledMain } from "./components/styled/Container.styled";
+import Header from "./components/Header";
+import Subscription from "./components/Subscription";
+import Footer from "./components/Footer";
+import Signature from "./components/Signature";
+
+
+
+const theme = {
+  colors: {
+    cyan: "hsl(179, 62%, 43%)",
+    lightCyan: "rgb(70,190, 189)",
+    lightestCyan: "rgb(172, 250, 250)",
+    yellow: "hsl(71, 73%, 54%)",
+    lightGray: "hsl(204, 43%, 93%)",
+    grayishBlue: "hsl(218, 22%, 67%)",
+  }
+}
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+    <>
+    <GlobalStyles />
+
+      <StyledMain>
+        <Header />
+        <Subscription />
+        <Footer />
+      </StyledMain>
+
+      <Signature />
+
+    </>
+    </ThemeProvider>
   );
 }
 
