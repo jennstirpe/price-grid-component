@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/price-grid-component/static/js/main.ca92b3b7.js",
+    "main.js": "/price-grid-component/static/js/main.f51737fe.js",
     "static/js/787.18f75cf0.chunk.js": "/price-grid-component/static/js/787.18f75cf0.chunk.js",
     "index.html": "/price-grid-component/index.html",
-    "main.ca92b3b7.js.map": "/price-grid-component/static/js/main.ca92b3b7.js.map",
+    "main.f51737fe.js.map": "/price-grid-component/static/js/main.f51737fe.js.map",
     "787.18f75cf0.chunk.js.map": "/price-grid-component/static/js/787.18f75cf0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.ca92b3b7.js"
+    "static/js/main.f51737fe.js"
   ]
 }
