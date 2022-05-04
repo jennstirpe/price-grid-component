@@ -7,6 +7,7 @@ export const StyledHeader = styled.header`
     border-top-right-radius: .5rem; 
 
     h1 {
+        font-size: 1.6rem;
         color: ${({theme}) => theme.colors.cyan};
     }
 
@@ -28,7 +29,7 @@ export const StyledHeader = styled.header`
 
         padding: 1.5rem 2.25rem 0rem 2.25rem;
 
-        h2 {
+        h1 {
             font-size: 1.75rem;
             margin-bottom: 1.75rem;
         }
