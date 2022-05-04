@@ -6,7 +6,7 @@ export const StyledHeader = styled.header`
     border-top-left-radius: .5rem;
     border-top-right-radius: .5rem; 
 
-    h2 {
+    h1 {
         color: ${({theme}) => theme.colors.cyan};
     }
 
